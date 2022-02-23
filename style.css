@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1491001224967-2c0ee18a7c42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ff46c1;
+  display: flex;
+  align-items: center;
+  padding: 1.2em;
+  font-size: 1.4em;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  color: #ff46c1;
+  text-decoration: none;
+  padding: 1.4em;
+}
+
+.nav li a:hover {
+  color: #4bff14;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 300px auto;
+}
+
+h1 {
+  color:#ff46c1;
+  margin-bottom: .4em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+p {
+  margin-bottom: 1.8em;
+  font-size: 1.4em;
+  color: #4bff14;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+button {
+  background: #ff46c149;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-size: 1.3em;
+  border: none;
+  padding: 12px 45px;
+  transition: all .5s ease;
+}
+
+button:hover {
+  background: #4bff145d;
+  transform: translateY(10px);
+  border-radius: 25px;
+}
